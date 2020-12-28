@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfy.matisse" >
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application>
+        <activity android:name=".ui.ImageCropActivity" />
+        <activity android:name=".ui.MatisseActivity" />
+        <activity android:name=".internal.ui.SelectedPreviewActivity" />
+        <activity android:name=".internal.ui.AlbumPreviewActivity" />
+    </application>
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CropImageView"><attr format="color" name="cropMaskColor"/><attr format="color" name="cropBorderColor"/><attr format="dimension" name="cropBorderWidth"/><attr format="dimension" name="cropFocusWidth"/><attr format="dimension" name="cropFocusHeight"/><attr format="enum" name="cropStyle">
+        <enum name="rectangle" value="0"/>
+        <enum name="circle" value="1"/>
+    </attr></declare-styleable>
+</resources>
